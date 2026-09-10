@@ -17,6 +17,53 @@ body {
     font-family: 'Google Sans', sans-serif;
 }
 
+.container1 {
+    display: flex;
+    padding: 0 16px 0 24px;
+    gap: 220px;
+    /* justify-content: space-between; */
+    background-color: white;
+    padding: 15px;
+    border: 2px solid red;
+}
+
+.left-side img {
+    width: 170px;
+    justify-content: space-between;
+    padding: 0px 16px 0px 24px;
+    border: 2px solid greenyellow;
+}
+
+.middle-links {
+    /* margin-left: 32px; */
+    border: 2px solid orangered;
+}
+
+.right-side {
+
+}
+
+.text-container1 {
+    background-color: #1A73E8;
+    padding: 20px 24px;
+}
+
+.text-container1 p {
+    color: #FFFFFF;
+}
+
+.text-container2 {
+    background-color: #E8F0FE;
+    border-bottom: 1px;
+    /* padding: 20px 24px 19px 24px; */
+}
+
+.text-container2 p {
+    color: #303F9F;
+    margin-left: 138.203px;
+    padding: 20px 24px 19px 24px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -50,17 +97,17 @@ img {
     border-radius: 20px;
 }
 
-.flex-container {
+/* .flex-container {
     border: 2px solid red;
     display: flex;
     margin:97px 312.5px;
-}
+} */
 
 /* .flex-item {
     border: 2px solid blue;
 } */
 
-.flex-item:nth-child(1) {
+/* .flex-item:nth-child(1) {
     border: 2px solid green;
     width: 50%;
 }
@@ -68,7 +115,7 @@ img {
 .flex-item:nth-child(2) {
     border: 2px solid orangered;
     width: 50%;
-}
+} */
 
 /* second one */
 .flex-container2 {
@@ -157,10 +204,10 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 50px 0px;
     background-color: #F5F6F7;
     margin:50px 0px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-direction: column;
 }
 
@@ -168,11 +215,11 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     gap: 140px;
     /* width: min(1230px, calc(100% - 48px)); */
-    padding: 0px 40px 48px;
-    /* border: 2px solid red; */
+    /* padding: 0px 40px 48px; */
+    border: 2px solid red;
 }
 
 .head .text {
@@ -180,11 +227,12 @@ img {
     margin-bottom: 250px;
     font-size: 48px;
     line-height: 1.1;
-    /* border: 2px solid red; */
+    border: 2px solid red; 
 }
 
 .head .text h3 {
     font-weight: 600;
+    margin-right: 300px;
 }
 
 .head .text p {
