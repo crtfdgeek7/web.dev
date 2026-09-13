@@ -10,6 +10,7 @@
 img {
     max-width: 100%;
     /* border-radius: 20px; */
+    /* border: 2px solid red; */
 }
 
 body {
@@ -260,12 +261,12 @@ h1 {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .1px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .button:hover {
-    background: #075bd4;
-    color: white;
+    border: none;
+    /* color: #FFFFFF; */
 }
 
 .hero-button {
@@ -457,6 +458,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 22px;
+    padding: 40px 0px;
 }
 
 .flex-item3 {
@@ -531,6 +533,82 @@ h2 {
 
 .flex-item3 a:last-child:hover {
     border: none;
-    background-color: #F5F6F7;
+    background-color: #075bd4;
+    color: #ffffff;
     /* text-decoration: none; */
+}
+
+/* more */
+.hero3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F6F7;
+    padding: 32px 0px 0px 0px;
+}
+
+.intro2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 312.5px;
+}
+
+.intro2 h1 {
+    font-weight: 400;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+    margin:0px 0px 32px;
+}
+
+.intro2 p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Google Sans', sans-serif;
+}
+.cta {
+    margin: 24px 0px 0px -12px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.button3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #075bd4;
+    border: 2px solid #075bd4;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1px;
+    width: 174px;
+    height: 48px;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 90px;
+    margin-bottom:30px;
+    border: 2px solid purple;
+}
+
+.button3:hover {
+    border: none;
+    color: #FFFFFF;
+    background-color: #075bd4;
+}
+
+
+.image2 {
+    /* margin-top: 32px; */
+    padding-right: 200px;
+}
+
+.baseline {
+    display: flex;
+    padding: 64px 0px;
+    margin: 0px 312.5px;
 }
