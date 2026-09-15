@@ -20,18 +20,43 @@
                 alt="web.dev">
         </div>
         <div class="middle-links">
-            <a href="#">Resources</a>
-            <a href="#">Discover</a>
-            <a href="#">Baseline</a>
-            <a href="#">How to use Baseline</a>
-            <a href="#">Blog</a>
-            <a href="#">Case Studies</a>
+            <a class="links" href="#">Resources</a>
+            <a class="links" href="#">Discover</a>
+            <a class="links" href="#">Baseline</a>
+            <a class="links" href="#">How to use Baseline</a>
+            <a class="links" href="#">Blog</a>
+            <a class="links" href="#">Case Studies</a>
         </div>
         <div class="right-side">
-            <button>Search</button>
-            <img src="" alt="()">
-            <button>English</button>
-            <button>Sign in</button>
+            <img src="images/search.svg" alt="" />
+            <input type="text" placeholder="Search" />
+            <a href="">
+                <img src="images/lightmode.svg" alt="" />
+            </a>
+            <select name="" id="">
+                <a href="#">
+                    <option value="1">English</option>
+                </a>
+                <a href="#">
+                    <option value="2">Deutsch</option>
+                </a>
+                <a href="#">
+                    <option value="3">Español - América Latina</option>
+                </a>
+                <a href="#">
+                    <option value="4">Français</option>
+                </a>
+                <a href="#">
+                    <option value="5">Indonesia</option>
+                </a>
+                <a href="#">
+                    <option value="6">Italiano</option>
+                </a>
+                <a href="#">
+                    <option value="7">Polski</option>
+                </a>
+            </select>
+            <a href="#">Sign in</a>
         </div>
     </div>
 
@@ -47,9 +72,12 @@
     <div class="container">
         <div class="text">
             <h3>Building a better web, together.</h3>
-            <p>We want to help you build beautiful, accessible, fast, and secure<br>websites that work cross-browser, and
-                for all of your users. This<br>site is our home for content to help you on that journey, written by<br>members
-                of the Chrome team, and external experts who specialize<br>in web development topics such as accessibility,
+            <p>We want to help you build beautiful, accessible, fast, and secure<br>websites that work cross-browser,
+                and
+                for all of your users. This<br>site is our home for content to help you on that journey, written
+                by<br>members
+                of the Chrome team, and external experts who specialize<br>in web development topics such as
+                accessibility,
                 performance,<br>design, and more.</p>
         </div>
         <div class="image">
@@ -63,7 +91,8 @@
                 <img src="images/AIandtheweb.png" alt="">
             </a>
             <a href="#">AI and the web</a>
-            <P>Discover resources created to help you<br>understand and build performant, web-first<br>experiences with AI.
+            <P>Discover resources created to help you<br>understand and build performant, web-first<br>experiences with
+                AI.
             </P>
             <a href="#">Learn more</a>
         </div>
@@ -72,7 +101,8 @@
                 <img src="images/optimizeINP.png" alt="">
             </a>
             <a href="#">Optimize INP</a>
-            <p>Interaction to Next Paint (INP) is now a Core<br>Web Vital metrics. Start measuring and<br>optimizing your
+            <p>Interaction to Next Paint (INP) is now a Core<br>Web Vital metrics. Start measuring and<br>optimizing
+                your
                 site's INP.</p>
             <a href="#">Learn more</a>
         </div>
@@ -81,7 +111,8 @@
                 <img src="images/payandID.png" alt="">
             </a>
             <a href="#">Payments & Identity</a>
-            <p>Read up on the latest features and best<br>practices when it comes to identity and<br>payment processing.</p>
+            <p>Read up on the latest features and best<br>practices when it comes to identity and<br>payment processing.
+            </p>
             <a href="#">Learn more</a>
         </div>
     </div>
@@ -100,7 +131,7 @@
             </p>
         </div>
     </div>
-<!-- note:add icons -->
+    <!-- note:add icons -->
     <div class="cards">
         <div class="card">
             <h2>HTML</h2>
@@ -130,7 +161,8 @@
         </div>
         <div>
             <p class="intro-text">
-                New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically for<br class="desktop-break" />
+                New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically
+                for<br class="desktop-break" />
                 beginners to HTML, CSS, and JavaScript.
             </p>
         </div>
@@ -168,7 +200,8 @@
         <div class="intro2">
             <h1><b>Keep up on web development news</b></h1>
             <p>
-                Read our blog to learn the latest news in web development, including new web platform features, updates to Baseline, AI, Core<br class="desktop-break" />
+                Read our blog to learn the latest news in web development, including new web platform features, updates
+                to Baseline, AI, Core<br class="desktop-break" />
                 Web Vitals, and more.
             </p>
             <div class="cta">
@@ -180,75 +213,285 @@
         </div>
     </div>
 
-    <!-- yet another one -->
-    <!-- <div class="baseline">
-        <div class="section1">
-            <h2><b>Baseline</b></h2>
-            <p>Get up to speed with the latest updates and news on <a href="#" class="baseline-tag">Baseline.</a></p>
-            <a class="button hero-button" href="#topics">More on Baseline</a>
+    <section class="last">
+        <div class="digest__intro">
+            <h1>Baseline</h1>
+            <p>Get up to speed with the latest updates and news on <a href="#">Baseline</a>.</p>
+            <a class="button" href="#">More on Baseline</a>
         </div>
-        <div class="section2">
-            <h3><a href="#" class="baseline-tag2">July 2026 Baseline monthly digest</a></h3>
-            <p>Read about various happenings with Baseline during<br> July 2026.</p>
-            <h3><a href="" class="baseline-tag2">Introducing Baseline Alerts</a></h3>
-            <p>Baseline Alerts have landed on the Web Platform<br> Status dashboard. Learn how they can shorten the<br>time between awareness of a web feature, and when<br> you can adopt it.</p>
+
+        <div class="digest__articles">
+            <article>
+                <h2>July 2026 Baseline monthly digest</h2>
+                <p>Read about various happenings with Baseline during July 2026.</p>
+                <h3>Introducing Baseline Alerts</h3>
+                <p>Baseline Alerts have landed on the Web Platform Status dashboard. Learn how they can shorten the
+                    time between awareness of a web feature, and when you can adopt it.</p>
+            </article>
+            <article>
+                <h2>June 2026 Baseline monthly digest</h2>
+                <p>Read about various happenings with Baseline during June 2026.</p>
+                <h3>Effortlessly get Baseline target data with the updated Baseline Checker tool</h3>
+                <p>Get data to select your Baseline target with Google Analytics data—now faster and easier.</p>
+            </article>
         </div>
-        <div class="section3">
-            <h3><a href="#" class="baseline-tag2">June 2026 Baseline monthly digest</a></h3>
-            <p>Read about various happenings with Baseline during June 2026.</p>
-            <h3><a href="#" class="baseline-tag2">Effortlessly get Baseline target data with the updated Baseline Checker tool</a></h3>
-            <p>Get data to select your Baseline target with Google Analytics data—now faster and easier.</p>
+    </section>
+
+    <section class="last _gray">
+        <div class="digest__intro">
+            <h1>CSS and UI design</h1>
+            <p>Learn the latest tips and techniques to use in your work, right now.</p>
+            <a class="button" href="#">Explore CSS</a>
         </div>
-    </div> -->
+
+        <div class="digest__articles">
+            <article>
+                <h2>Adapting typography to user preference using CSS</h2>
+                <p>Adapt a font to your users' preferences, so they're maximally comfortable reading your content.
+                </p>
+                <h3>What are source maps?</h3>
+                <p>Improve web debugging experience with source maps.</p>
+            </article>
+            <article>
+                <h2>New CSS color spaces and functions in all major engines</h2>
+                <p>All major engines now support the new CSS color spaces and functions. Find out how they can bring
+                    vibrancy to your designs.</p>
+                <h3>CSS subgrid</h3>
+                <p>Subgrid is now interoperable across all three major engines. Find out how to use it.</p>
+            </article>
+        </div>
+    </section>
 
     <section class="last">
-            <div class="digest__intro">
-                <h1>Baseline</h1>
-                <p>Get up to speed with the latest updates and news on <a href="#">Baseline</a>.</p>
-                <a class="button" href="#">More on Baseline</a>
+        <div class="digest__intro">
+            <h1>Core Web Vitals</h1>
+            <p>Build faster websites and apps by understanding Core Web Vitals and other metrics.</p>
+            <a class="button" href="#">Explore Core Web Vitals</a>
+        </div>
+
+        <div class="digest__articles">
+            <article>
+                <h2>The most effective ways to improve Core Web Vitals</h2>
+                <p>A collection of best practices for optimizing websites' Core Web Vitals performance based on the
+                    state of the web.</p>
+                <h3>Common misconceptions about how to optimize LCP</h3>
+                <p>Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image
+                    optimization and considering factors like Time to First Byte and resource load delay.</p>
+            </article>
+            <article>
+                <h2>How to optimize INP</h2>
+                <p>Learn how to optimize for the Interaction to Next Paint metric.</p>
+                <h3>Best practices for measuring Web Vitals in the field</h3>
+                <p>Guidance for collecting and reporting Web Vitals quickly and reliably.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="last _gray">
+        <div class="digest__intro">
+            <h1>Progressive Web Apps</h1>
+            <p>Create capable web experiences.</p>
+            <a class="button" href="#">More on PWA</a>
+        </div>
+
+        <div class="digest__articles">
+            <article>
+                <h2>Learn PWA</h2>
+                <p>A course that breaks down every aspect of modern progressive web app development.</p>
+                <h3>New patterns for amazing apps</h3>
+                <p>Dive into a fantastic collection of new patterns for amazing apps, including clipboard patterns, file
+                    patterns, and advanced app patterns.</p>
+            </article>
+            <article>
+                <h2>TransformStream is now supported cross browser.</h2>
+                <p>Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for
+                    prime time.</p>
+                <h3>Project Fugu API showcase</h3>
+                <p>On the Chrome Developers site, explore capabilities APIs.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="last">
+        <div class="digest__intro">
+            <h1>Accessible for all</h1>
+            <p>Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary,
+                or situational.</p>
+            <a class="button" href="#">More on accessibility</a>
+        </div>
+
+        <div class="digest__articles">
+            <article>
+                <h2>Learn Accessibility</h2>
+                <p>Our new course is a great entry point and reference for accessibility topics.</p>
+                <h3>Building the main navigation for a website</h3>
+                <p>This tutorial describes how to build an accessible main navigation of a website. You learn about
+                    semantic HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.
+                </p>
+            </article>
+            <article>
+                <h2>Testing web design color contrast</h2>
+                <p>An overview of three tools and techniques for testing and verifying accessible color contrast of your
+                    design.</p>
+                <h3>Community highlight: Melanie Sumner</h3>
+                <p>Read our interview with Melanie, a software engineer who specializes in digital accessibility.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="last _gray">
+        <div class="digest__intro">
+            <h1>Payments and identity</h1>
+            <p>Find the latest techniques and best practices for payments and helping users safely log into your sites
+                and apps.</p>
+            <a class="button" href="#">More on identity</a>
+        </div>
+
+        <div class="digest__articles">
+            <article>
+                <h2>Create a passkey for passwordless logins</h2>
+                <p>Passkeys make user accounts safer, simpler, easier to use.</p>
+                <h3>Web payments overview</h3>
+                <p>Learn more about Web Payments and how they work.</p>
+            </article>
+            <article>
+                <h2>Sign in with a passkey</h2>
+                <p>Create a sign in experience that uses passkeys while still accommodating existing password users.</p>
+                <h3>Payment and address form best practices</h3>
+                <p>Maximize conversions by helping your users complete address and payment forms as quickly and easily
+                    as possible.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="newsletter">
+            <div class="heading">
+                <h2>Developer Newsletter</h2>
+                <p>Get the latest news, techniques and updates straight to your inbox.</p>
             </div>
 
-            <div class="digest__articles">
-                <article>
-                    <h2>July 2026 Baseline monthly digest</h2>
-                    <p>Read about various happenings with Baseline during July 2026.</p>
-                    <h3>Introducing Baseline Alerts</h3>
-                    <p>Baseline Alerts have landed on the Web Platform Status dashboard. Learn how they can shorten the
-                        time between awareness of a web feature, and when you can adopt it.</p>
-                </article>
-                <article>
-                    <h2>June 2026 Baseline monthly digest</h2>
-                    <p>Read about various happenings with Baseline during June 2026.</p>
-                    <h3>Effortlessly get Baseline target data with the updated Baseline Checker tool</h3>
-                    <p>Get data to select your Baseline target with Google Analytics data—now faster and easier.</p>
-                </article>
-            </div>
-        </section>
+            <form action="">
+                <div class="names">
+                    <div class="name">
+                        <label for="">First Name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
 
-        <section class="last _gray">
-            <div class="digest__intro">
-                <h1>CSS and UI design</h1>
-                <p>Learn the latest tips and techniques to use in your work, right now.</p>
-                <a class="button" href="#">Explore CSS</a>
-            </div>
+                    <div class="name">
+                        <label for="">Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                </div>
 
-            <div class="digest__articles">
-                <article>
-                    <h2>Adapting typography to user preference using CSS</h2>
-                    <p>Adapt a font to your users' preferences, so they're maximally comfortable reading your content.
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <div class="country">
+                    <label for="">Country</label>
+                    <select name="" id="country-options">
+                        <option value="1">Afghanistan</option>
+                        <option value="2">Aland Islands</option>
+                        <option value="3">Albania</option>
+                        <option value="4">Algeria</option>
+                        <option value="5">American Samoa</option>
+                        <option value="6">Andorra</option>
+                        <option value="7">Angola</option>
+                    </select>
+                </div>
+
+                <p class="last-paragraph">
+                    Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates
+                    and our
+                    emails are typically no more than 1-2 times a month. You can unsubscribe anytime.
+                </p>
+
+                <div class="checklist">
+                    <input type="checkbox">
+                    <label for="">Add me to the web.dev mailing list.</label>
+                </div>
+
+                <div class="checklist">
+                    <input type="checkbox">
+                    <label for="">
+                        I accept Google's <a class="same-link" href="#">Terms and Conditions</a> and acknowledge that my
+                        information will be used in accordance with Google's <a class="same-link" href="#">Privacy
+                            Policy</a>.
+                    </label>
+                </div>
+
+                <img src="" alt=""> <!-- Something still needs to be here -->
+                <button>SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-up">
+            <div class="flex-parent12">
+                <div class="flex-child12">
+                    <img src="images/logo.svg" alt="" width="150">
+                    <p>
+                        We want to help you build beautiful, accessible, fast, and secure websites that work
+                        cross-browser, and for
+                        all of your users. This site is our home for content to help you on that journey, written by
+                        members of the
+                        Chrome team, and external experts.
                     </p>
-                    <h3>What are source maps?</h3>
-                    <p>Improve web debugging experience with source maps.</p>
-                </article>
-                <article>
-                    <h2>New CSS color spaces and functions in all major engines</h2>
-                    <p>All major engines now support the new CSS color spaces and functions. Find out how they can bring
-                        vibrancy to your designs.</p>
-                    <h3>CSS subgrid</h3>
-                    <p>Subgrid is now interoperable across all three major engines. Find out how to use it.</p>
-                </article>
+                </div>
+
+                <div class="flex-child12">
+                    <div class="same-grouping">
+                        <h3>Contribute</h3>
+                        <a href="#">File a bug</a>
+                        <a href="#">See open issues</a>
+                    </div>
+                </div>
+
+                <div class="flex-child12">
+                    <div class="same-grouping">
+                        <h3>Related Content</h3>
+                        <a href="#">Chrome for Developers</a>
+                        <a href="#">Chromium updates</a>
+                        <a href="#">Case studies</a>
+                        <a href="#">Podcasts & shows</a>
+                    </div>
+                </div>
+
+                <div class="flex-child12">
+                    <div class="same-grouping">
+                        <h3>Follow</h3>
+                        <a href="#">@ChromiumDev on X</a>
+                        <a href="#">YouTube</a>
+                        <a href="#">Chrome for Developers on LinkedIn</a>
+                        <a href="#">RSS</a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+
+        <div class="footer-end">
+            <div class="two-links">
+                <a href="#">Terms</a> |
+                <a href="#">Privacy</a>
+            </div>
+
+            <div class="language">
+                <select name="" id="">
+                    <option value="1">🌐 English</option>
+                    <option value="2">Deutsch</option>
+                    <option value="3">Espanol</option>
+                    <option value="4">Francais</option>
+                    <option value="5">Indonesia</option>
+                    <option value="6">Italiano</option>
+                    <option value="7">Polski</option>
+                    <option value="8">Portugues - Brasil</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
