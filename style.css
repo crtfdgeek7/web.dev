@@ -631,8 +631,10 @@ h2 {
     /* margin-top: 32px; */
     padding-right: 200px;
 }
+
+
 /* another one */
-.last {
+.headlines {
     display: flex;
     gap: 58px;
     min-height: 396px;
@@ -644,7 +646,7 @@ h2 {
     background: #f5f6f7;
 }
 
-.digest__articles {
+.headlines__articles {
     display: flex;
     flex: 1;
     gap: 48px;
@@ -669,7 +671,7 @@ h2 {
     font-weight: 400;
 }
 
-.last h3 {
+.headlines h3 {
     margin: 27px 0 18px;
     font-size: 20px;
     line-height: 1.35;
@@ -682,7 +684,7 @@ p {
     line-height: 1.42;
 }
 
-.digest__intro p {
+.headlines__intro p {
     max-width: 360px;
 }
 
